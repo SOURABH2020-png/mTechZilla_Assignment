@@ -1,6 +1,6 @@
 import { lazy } from "react"
 
-const SearchField = lazy(() => import('../view/Home'))
+const SearchField = lazy(() => import('../View/Home'))
 
 console.log("routes")
 

@@ -1,7 +1,6 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.scss'
 import routes from './routes';
-console.log("authLayout")
 
 export default function App() {
   return (

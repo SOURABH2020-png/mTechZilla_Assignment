@@ -17,7 +17,6 @@ export default function Menu() {
         try {
             const response = await axios.get("https://api.github.com/users");
             const { data, status } = response;
-            console.log(data)
             if (status === 200) {
                 setDrinksData(data)
             }

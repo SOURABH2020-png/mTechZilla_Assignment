@@ -16,7 +16,6 @@ export default function TimerRange() {
     }
 
     const timePause = () => {
-        console.log("Paused clicked" + minutes, countTime, seconds);
         setPauseTime(minutes);
     }
 

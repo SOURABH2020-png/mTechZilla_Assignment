@@ -63,7 +63,8 @@ export default function Menu() {
                             {
                                 edit === true ?
                                     <InputGroup.Text className="btn primary-bg text-white" ><AiOutlineSearch /></InputGroup.Text>
-                                    : ""
+                                    : 
+                                    ""
                             }
                         </InputGroup>
                     </Form>

@@ -8,7 +8,13 @@ export default function App() {
       <Routes>
         {routes.map(({ exact, component: C, name, path }, key) => {
           return (
-            <Route key={key} path={path} name={name} exact={exact} element={<C />} />
+            <Route
+              key={key}
+              path={path}
+              name={name}
+              exact={exact}
+              element={<C />}
+            />
           )
         })
         }
